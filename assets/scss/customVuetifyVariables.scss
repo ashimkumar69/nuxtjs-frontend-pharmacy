@@ -1,0 +1,19 @@
+@import "~vuetify/src/styles/styles.sass";
+
+$light-colors: (
+  "app-bar": map-get($shades,'white') !important,
+  "background": map-get($grey, "lighten-4") !important,
+  "cards": map-get($shades,'white') !important,
+  'navigation-drawer': map-get($shades, 'white')!important,
+  // "bg-color": map-get($red, "lighten-4") !important,
+  // "fg-color": map-get($red, "lighten-4") !important,
+  // "text-color": map-get($red, "lighten-4") !important,
+  // "buttons": (
+  //   "disabled": map-get($red, "lighten-4") !important,
+  //   "focused": map-get($red, "lighten-4") !important,
+  //   "focused-alt": map-get($red, "lighten-4") !important,
+  //   "pressed": map-get($red, "lighten-4") !important
+  // )
+);
+$material-light: map-merge($material-light, $light-colors);
+// $material-dark: map-merge($material-dark, $new-colors);
